@@ -1,0 +1,65 @@
+{
+  "name": "tfjs-classify",
+  "version": "1.0.0",
+  "description": "use tfjs to classify space objects in scifi",
+  "main": "index.js",
+  "proxy": "http://github.com/",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --hot",
+    "build": "yarn patch-package; webpack --config webpack.config.js",
+    "postinstall": "patch-package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cy-moi/tfjs-classifier-boilerplate.git"
+  },
+  "author": "zcy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cy-moi/tfjs-classifier-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cy-moi/tfjs-classifier-boilerplate#readme",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-typescript": "^7.18.6",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
+    "@mediapipe/hands": "^0.4.1646424915",
+    "@mediapipe/selfie_segmentation": "^0.1.1632777926",
+    "@tensorflow-models/face-detection": "^1.0.1",
+    "@tensorflow-models/face-landmarks-detection": "^1.0.2",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow/tfjs": "^3.20.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.20.0",
+    "@tensorflow/tfjs-core": "^3.20.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "@types/three": "^0.144.0",
+    "comlink": "^4.3.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1",
+    "reactcss": "^1.2.3",
+    "three": "^0.146.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}
