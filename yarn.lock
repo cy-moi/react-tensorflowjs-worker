@@ -1164,6 +1164,11 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.2.1.tgz#812edd4104a15a493dda1ccac0b352270d7a188c"
   integrity sha512-XiY0IsyHR+DXYS5vBxpoBe/8veTeoRpMHP+vDosLZxL5bnpetzI0igkxkLZS235ldLzyfkxF+2divEwWHP3vMQ==
 
+"@tensorflow-models/coco-ssd@^2.2.3":
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/@tensorflow-models/coco-ssd/-/coco-ssd-2.2.3.tgz#3825286569076d6788199c9cb89fb2fa31f7d2f2"
+  integrity sha512-iCLGktG/XhHbP6h2FWxqCKMp/Px0lCp6MZU1fjNhjDHeaWEC9G7S7cZrnPXsfH+NewCM53YShlrHnknxU3SQig==
+
 "@tensorflow-models/face-detection@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmmirror.com/@tensorflow-models/face-detection/-/face-detection-1.0.1.tgz#f0b68f5c8ebf38d588ae2c9c6eb7517e7faad2b5"
