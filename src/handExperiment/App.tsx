@@ -38,7 +38,11 @@ function App() {
       const {keypoints} = hand;
       if(keypoints) {
         ctx.beginPath()
-        ctx.arc(keypoints[0].x, keypoints[0].y, 20, 0, 2*Math.PI)
+        // thumb finger tip
+        ctx.arc(keypoints[4].x, keypoints[4].y, 10, 0, 2*Math.PI)
+
+        // index finger tip
+        ctx.arc(keypoints[8].x, keypoints[8].y, 10, 0, 2*Math.PI)
         ctx.fill()
       }
     }
