@@ -17,14 +17,6 @@
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    // "forceConsistentCasingInFileNames": false,
-    // "isolatedModules": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noImplicitReturns": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "skipLibCheck": true,
-    // "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
       "Src": [
